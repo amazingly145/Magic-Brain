@@ -1,5 +1,5 @@
 # Magic-Brain
 "Magic Brain" is a memory game in which the players can put to practice their ability to rember a pair of cards, they need to remeber where they are placed and its chracteristics. This game will have different levels, starting from a basic or easy level, going to difficult or more challenging levels. The player can also choose what type of cards to choose or wants to play.
-### Contexto
+### Context
 The brain is one of the fundamentals, of the human body, without it, we wouldn't be able to fuction as human beings, and think about everything we would want to do in life. Through out the years many people have experienced memory loss, in which they forget a lot about what they do noemally in life or important details. There are also a lot of people who have Alzheimmer, it is a really cruel mental sickness, in which people forget, thir names, family members, etc. And it has caused for a lot of people to never recognize who they were a lot of time ago. Or they are never able to remember their family members. Memory games, have helped a lot of people with this disabilities and also to prevent them. That is why it is very important for people to play this types of games.
 
