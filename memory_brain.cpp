@@ -1,5 +1,11 @@
 # include <iostream>
 # include <string>
+# include "Level.cpp"
+# include "Deckcards.cpp"
+# include "Game_master.cpp"
+# include "Player.cpp"
+# include "Board.cpp"
+
 using namespace std;
 
 #ifndef LEVEL_H
@@ -11,7 +17,6 @@ class Level{
         void Level(set_level);
         ///Aún faltan las subclasses
 };
-class.h
 #endif
 #include "Level.cpp"
 Level::Level(){
@@ -40,10 +45,10 @@ class Game_master{
     private:
         bool shuffle_cards;
     public:
-        void game_master(shuffle_cards);
-        int game_master(score);
-        float game_master(start_time);
-        int game_master(points_correct_pairs)
+        void Game_master(shuffle_cards);
+        int Game_master(score);
+        float Game_master(start_time);
+        int Game_master(points_correct_pairs)
         ///Aún faltan las subclasses
 };
 #endif
