@@ -3,4 +3,4 @@
 ### Context
 The brain is one of the fundamentals, of the human body, without it, we wouldn't be able to fuction as human beings, and think about everything we would want to do in life. Through out the years many people have experienced memory loss, in which they forget a lot about what they do noemally in life or important details. There are also a lot of people who have Alzheimmer, it is a really cruel mental sickness, in which people forget, thir names, family members, etc. And it has caused for a lot of people to never recognize who they were a lot of time ago. Or they are never able to remember their family members. Memory games, have helped a lot of people with this disabilities and also to prevent them. That is why it is very important for people to play this types of games.
 ### Class diagram
-![Diagrama drawio](https://drive.google.com/file/d/1EeQ2H5DJEISA9LFtuTnKagLCj_YV3go1/view?usp=sharing))
+![Diagrama drawio][https://drive.google.com/file/d/1EeQ2H5DJEISA9LFtuTnKagLCj_YV3go1/view?usp=sharing]
