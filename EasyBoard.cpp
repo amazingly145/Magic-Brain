@@ -79,7 +79,7 @@ EasyBoard::get_unawnsered_board(string){
                     "  2  |     B     |           |\n"
                     "     |           |           |\n"
                     "     ------------------------\n"};
-                 if card _x == 2 && card _y == 2;
+                 if card _x == 2 && card _y == 2{
                     "            1         2      \n"
                     "     ------------------------\n" 
                     "     |           |           |\n"
@@ -89,7 +89,7 @@ EasyBoard::get_unawnsered_board(string){
                     "     |           |           |\n"
                     "  2  |           |     B     |\n"
                     "     |           |           |\n"
-                    "     ------------------------\n"    
+                    "     ------------------------\n"}    
             }
     return unanswered_board;
 }
