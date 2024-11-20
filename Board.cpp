@@ -1,4 +1,3 @@
-
 #include "Board.h"
 #include "Card.h"
 #include <iostream>
@@ -11,7 +10,7 @@ Board::Board(int,int,string,string){
     string answer_board = _anwer_board;
     string unanswer_board = _unanswer_board;
 }
-Board::Card(int, int){
+Board:: Card(int, int){
     void set_side_x;
     void set_side_y;
 }
