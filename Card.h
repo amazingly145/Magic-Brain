@@ -1,11 +1,9 @@
-#include <string>
-using namespace std;
 #include <iostream>
 #ifndef CARD_H
 #define CARD_H
 class Card(){
     private:
-        string symbol;
+        array symbol;
         int side_x;
         int side_y;
 
@@ -13,6 +11,6 @@ class Card(){
         Card(string,int,int);
         void setSide_x(int);
         void setSide_y(int);
-        void setSymbol(string);
+        array setSymbol(string);
 };
 #endif
