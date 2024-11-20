@@ -10,7 +10,17 @@ HardBoard::Board(int,string,string){
     Board name = "Hard level";
     Board answer_board = string;
     Board unansweres_board = string;
-
+}
+HardBoard::HardBoard(int _num_levboard, string _name, string _answer_board,string _unanswered_board):Board( _num_levboard, _name, _num_cards, _answered_board, unanswered_board,score){
+    void set_answer_board = string;
+    string get_unawnsered_board = void;
+    int score = 3;
+}
+HardBoard::Card(array _setsymbol){
+    string matrixHardBoard[3][3] = {{A,B,C},{B,C,A}};
+    for (int i = 0; i<2, i++)
+            for(int j = 0; j<2; j++){
+                symbol = matrixHardBoard[i][j];}
 }
 HardBoard::HardBoard(int,string,string,string){
     void set_answer_board = string;
@@ -41,76 +51,5 @@ HardBoard::set_unanswer_board(string){
         "  2 |           |           |          |\n"
         "    |           |           |          |\n"
         "    ------------------------------------\n";
-    string matrixHardBoard[3][3] = {{A,B,C},{B,C,A}};
-    for (int i = 0; i<2, i++)
-            for(int j = 0; j<2; j++){
-                symbol = matrixHardBoard[i][j];
-                if card _x == 1 && card _y == 1{
-                    "        1             2           3     \n"
-                    "    ------------------------------------\n"
-                    "    |           |           |          |\n"
-                    "  1 |    A      |           |          |\n"
-                    "    |           |           |          |\n"
-                    "    ------------------------------------\n"
-                    "    |           |           |          |\n"
-                    "  2 |           |           |          |\n"
-                    "    |           |           |          |\n"
-                    "    ------------------------------------\n"};
-                if card _x == 1 && card _y == 2{
-                    "        1             2           3     \n"
-                    "    ------------------------------------\n"
-                    "    |           |           |          |\n"
-                    "  1 |           |     B     |          |\n"
-                    "    |           |           |          |\n"
-                    "    ------------------------------------\n"
-                    "    |           |           |          |\n"
-                    "  2 |           |           |          |\n"
-                    "    |           |           |          |\n"
-                    "    ------------------------------------\n"};
-                if card _x == 1 && card _y == 3{
-                    "        1             2           3     \n"
-                    "    ------------------------------------\n"
-                    "    |           |           |          |\n"
-                    "  1 |           |           |     C    |\n"
-                    "    |           |           |          |\n"
-                    "    ------------------------------------\n"
-                    "    |           |           |          |\n"
-                    "  2 |           |           |          |\n"
-                    "    |           |           |          |\n"
-                    "    ------------------------------------\n"};
-                if card _x == 2 && card _y == 1{
-                    "        1             2           3     \n"
-                    "    ------------------------------------\n"
-                    "    |           |           |          |\n"
-                    "  1 |           |           |          |\n"
-                    "    |           |           |          |\n"
-                    "    ------------------------------------\n"
-                    "    |           |           |          |\n"
-                    "  2 |     B     |           |          |\n"
-                    "    |           |           |          |\n"
-                    "    ------------------------------------\n"};
-                if card _x == 2 && card _y == 2{
-                    "        1             2           3     \n"
-                    "    ------------------------------------\n"
-                    "    |           |           |          |\n"
-                    "  1 |           |           |          |\n"
-                    "    |           |           |          |\n"
-                    "    ------------------------------------\n"
-                    "    |           |           |          |\n"
-                    "  2 |           |    C      |          |\n"
-                    "    |           |           |          |\n"
-                    "    ------------------------------------\n"};
-                if card _x == 2 && card _y == 3{
-                    "        1             2           3     \n"
-                    "    ------------------------------------\n"
-                    "    |           |           |          |\n"
-                    "  1 |           |           |          |\n"
-                    "    |           |           |          |\n"
-                    "    ------------------------------------\n"
-                    "    |           |           |          |\n"
-                    "  2 |           |           |     A    |\n"
-                    "    |           |           |          |\n"
-                    "    ------------------------------------\n"};
-            }
     return = unanswerboard;
 }
