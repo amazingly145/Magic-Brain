@@ -1,11 +1,14 @@
 //library names
 #include <string>
+#include <iostream>
 using namespace std;
+#include "Card.h"
+#include "Card.cpp"
 #include <iostream>
 #ifndef BOARD_H
 #define BOARD_H
 //Class definition
-class Board(){
+class Board{
     protected:
         int num_levboard;
         int score;
