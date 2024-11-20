@@ -13,4 +13,4 @@ This class has a hidden and showing board, where the showing board is the one th
 Same as easy board, the class has also two board, but it has 6 cards to plaay with
 ### Class Game_Master
 The game_master is the one who is controlling the game, meaning that this one gives the necessary points to the player.
-![Diagrama drawio](https://github.com/amazingly145/Magic-Brain/blob/main/magic_brain_2%20(2).jpg?raw=true)
+![Diagrama drawio](https://github.com/amazingly145/Magic-Brain/blob/main/magic_brain_2%20(3).jpg?raw=true)
