@@ -1,31 +1,32 @@
-//Library names
 #ifndef CARD_H
 #define CARD_H
-#include "Card.cpp"
 
 #include <string>
 using namespace std;
-#include <iostream>
 
-//Class definition
-class Card{
-    //Atributos.
-    private:
-        string symbol;
-        int side_x;
-        int side_y;
-    //Métodos.
-    public:
-        //Constructores
-        Card();
-        Card(string symbol, int side_x,int side_y);
-        //Getteres
-        int getSide_x( );
-        int getSide_y( );
-        string getCardData();
-        //Setters
-        void setSide_x(int);
-        void setSide_y(int);
-        void setSymbol(string);
+// Clase Card
+class Card {
+// Atributos
+private:
+    // Atributos de la clase
+    string symbol;
+    int side_x;
+    int side_y;
+// Métodos
+public:
+    // Constructores
+    Card();
+    Card(string symbol, int side_x, int side_y);
+    // Métodos Setters  
+    void setSymbol(string symbol);
+    void setSide_x(int side_x);
+    void setSide_y(int side_y);
+    // Métodos Getters
+    int getSide_x();
+    int getSide_y();
+    string getSymbol();
+    string getCardData();
 };
+
 #endif
+
