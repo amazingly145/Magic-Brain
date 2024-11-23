@@ -2,18 +2,24 @@
 #include <iostream>
 using namespace std;
 #include <string>
-Card::Card(string,int,int){
-    string symbol=_symbol;
-    int side_x = _side_x;
-    int side_y = _side_y;
+Card::Card(){
+    side_x = 0;
+    side_y = 0;
 }
-Card::int set_side_x(int){
-    int _side_x = void;
+Card::Card(string _symbol,int _side_x, int _side_y){
+    symbol = _symbol;
+    side_x = _side_x;
+    side_y = _side_y;
 }
-Card::int set_side_y(int){
-    int _side_y = void;
-
+//Revisar si quitar
+//Métodos setters
+void Card::setSymbol(string _symbol){
+    symbol=_symbol;
 }
-Card::string set_symbol(){
-    array _set_symbol = void
+//Métodos getters
+int Card::getSide_x(){
+    return side_x;
+}
+int Card::getSide_y(){
+    return side_y;
 }
