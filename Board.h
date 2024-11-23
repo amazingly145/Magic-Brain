@@ -9,26 +9,25 @@ using namespace std;
 
 //Class definition
 class Board{
-    //Atributos
+    //Atributes
     protected:
         //Setteres
         int num_levelboard;
         string answer_board;
         int num_cards;
-        string matriz_board;
         //Getters
         string name;
         int score;
         string unanswer_board;
-        //Composición de cards
+        //Composition of cards
         Card cards_x;
         Card cards_y;
-    //Métodos 
+    //Methods 
     public:
-        //Constructores
+        //Constructors
         Board();
-        Board(int num_levelboard, string answer_board, int num_cards, string matriz_board, string name, int score, string unanswer_board);//Constructor de la clase Board o los atributos de la clase board
-        //Composiciones de cards.
+        Board(int, string, int, string, int, string);//Constructor de la clase Board o los atributos de la clase board
+        //Composition of cards
         string Card(int,int);
         //Setters
         void setNum_levelboard(int);
