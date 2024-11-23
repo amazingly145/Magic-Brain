@@ -61,14 +61,3 @@ int main() {
 
     return 0;
 }
-
-    
-
-
-
-    //Vamos a imprimir lo que va a poner el usuario como opción de tarjeta.
-
-    //Llamar al método que me va a llevar al nivel que el jugador escoga.
-    //Esto se va hacer a través del Board.
-    //Si el jugador escogió uno se va a ir a EasyBoard y si escogió dos se va a ir a HardBoard.
-}
