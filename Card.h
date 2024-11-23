@@ -1,16 +1,20 @@
+#include <string>
+using namespace std;
 #include <iostream>
 #ifndef CARD_H
 #define CARD_H
-class Card(){
+class Card{
+    //Atributos.
     private:
-        array symbol;
+        string symbol;
         int side_x;
         int side_y;
-
+    //Métodos.
     public:
-        Card(string,int,int);
-        void setSide_x(int);
-        void setSide_y(int);
-        array setSymbol(string);
+        Card();
+        Card(string symbol, int side_x,int side_y);
+        int getSide_x( );
+        int getSide_y( );
+        void setSymbol(string);
 };
 #endif
