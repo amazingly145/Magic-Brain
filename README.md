@@ -13,7 +13,7 @@ This class has a hidden and showing board, where the showing board is the one th
 Same as easy board, the class has also two board, but it has 6 cards to plaay with
 ### Class Game_Master
 The game_master is the one who is controlling the game, meaning that this one gives the necessary points to the player.
-![Diagrama drawio](https://github.com/amazingly145/Magic-Brain/blob/main/magic_brain_2%20(3).jpg?raw=true)
+![Diagrama drawio](https://github.com/amazingly145/Magic-Brain/blob/main/magic_brain_2%20(5).jpg?raw=true)
 # Functionality
 As the name of the game, this is a memory game, in which people can put into trial their ability to choose a card to get the pair of cards needed. This game only works through numbers, so if you write any letter or special symbol, it won't work. Be careful when you play the game to not put any letters or special characters, as the game won't work, as it is planned.
 # Usage Instructions
