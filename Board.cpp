@@ -1,63 +1,55 @@
 #include "Board.h"
-#include "Card.h"
-#include <iostream>
-using namespace std;
-#include <string>
-//Son los valores con los que voy a inicializar mi clase.
-Board::Board(){
-    num_levelboard = 0;
-    answer_board = "";
-    num_cards = 0;
-    name = "";
-    score = 0;
-    unanswer_board = "";
-    //Constructo de cartas
-}
-//Configurar los atributos para que esten asignados a un valor.
-Board::Board(int _num_levelboard, string _answer_board, int _num_cards, string _name, int _score, string _unanswer_board){
-    //Falta agregar el constructor de cartas 
-    //Setters.
+
+// Constructor por defecto con los valores a inicializar
+Board::Board() 
+    : num_levelboard(0), 
+      answer_board(""), 
+      num_cards(0), 
+      name(""), 
+      score(0), 
+      unanswer_board("") 
+{}
+
+// Configurar los atributos para que se asignen los valores iniciales
+Board::Board(int _num_levelboard, string _answer_board, int _num_cards, string _name, int _score, string _unanswer_board) 
+    : num_levelboard(_num_levelboard), 
+      answer_board(_answer_board), 
+      num_cards(_num_cards), 
+      name(_name), 
+      score(_score), 
+      unanswer_board(_unanswer_board) 
+{}
+
+// Métodos Setters
+
+// Configurar el nivel de la tabla (1: Easy, 2: Hard)
+void Board::setNum_levelboard(int _num_levelboard) {
     num_levelboard = _num_levelboard;
+}
+
+// Configurar la tabla de respuestas (cartas)
+void Board::setAnswer_board(string _answer_board) {
     answer_board = _answer_board;
+}
+
+// Configurar el número de cartas en la tabla (Easy: 4, Hard: 6)
+void Board::setNum_cards(int _num_cards) {
     num_cards = _num_cards;
-    //Getters
-    name = _name;
-    score = _score;
-    unanswer_board = _unanswer_board;
 }
-//Métodos Setters
-//Número de nivel, recibe dependiendo si es easy o hard 
-void Board::setNum_levelboard(int setNum_levelboard){
-    num_levelboard = setNum_levelboard;
-} //Adentro de los paréntesis van los parámetros que va poner el usuario, por eso se igual a num_levboard.
-//Es la respuesta del tablero, el cual depende del nivel.
-void Board::setAnswer_board(string setAnswer_board){
-    answer_board = setAnswer_board;
+
+// Métodos Getters
+
+// Obtener el nombre del tablero
+string Board::getName() {
+    return name;
 }
-//Número de cartas que va tener el tablero dependiendo del nivel.
-void Board::setNum_cards(int setNum_cards){
-    num_cards = setNum_cards;
-}
-//Métodos getters.
-//Método nombre del tablero.
-string Board::getName( ){
-    return "Level name:" + name;
-}
-//Método score
-int Board::getScore(){
+
+// Obtener la puntuación del jugador
+int Board::getScore() {
     return score;
 }
-//Método Unanswer_board
-string Board::getUnanswer_board(){
+
+// Obtener la tabla de cartas sin responder
+string Board::getUnanswer_board() {
     return unanswer_board;
-}
-//Métodos de clase carta.
-//Método de composición del tipo carta.
-//Valor que pondrá el jugador de la carta en x.
-int Board::getSide_x_(){
-    return cards_x.getSide_x_();
-}
-//Valor que pondrá el jugador de la carta en y
-int Board::getSide_y_(){
-    return cards_y.getSide_y_();
 }
