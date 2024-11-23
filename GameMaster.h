@@ -5,18 +5,24 @@ using namespace std;
 #include "HardBoard.cpp"
 #ifndef GAMEMASTER_H
 #define GAMEMASTER_H
-class GameMaster(){
-    public:
-       hardboard(HardBoard);
-       easyboard(EasyBoard);
+class GameMaster{
+    //Atributos
     private:
-        string Card(int,int,array);
-        GameMaster(bool);
-        bool equality_pair(string);
-        void setShuffle_card(random);
-        void setStart_game(bool);
-        int getincrement_score();
-        bool getequailty_card();
-        int getchoose_level();
+        //Atributo de la propia clase.
+        int player_decision;
+        //Atributo de tipo composición de las subclases EasyBoard y HardBoard.
+        HardBoard playmode_hardboard;
+        EasyBoard playmode_easyboard;
+    //Métodos
+    public:
+        //Constructores 
+        GameMaster();
+        GameMaster(int);
+        //Métodos de tipo constructor
+        int playmode_easyboard(int);
+        int playmode_hardboard(int);
+        void setPlayer_decision(int);
+        int getPlayer_decision();
+        void setPlay(int,int);    
 };
 #endif
